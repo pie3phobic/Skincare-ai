@@ -1,4 +1,4 @@
-# Descpirtion
+# Description
 ## This is a single page Next.js app with OpenAI API that will recommend you products for a scincare routine besed on your input that will be used for a prompt to the Davinci003 model
 
 Made with Next.js and TailwindCSS
