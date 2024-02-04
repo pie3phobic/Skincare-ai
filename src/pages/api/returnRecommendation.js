@@ -19,7 +19,7 @@ const generateRecommendation = async ({
           { role: "system", content: "You are a helpful assistant." },
           {
             role: "user",
-            content: `Suggest skincare routine products for ${age} ${skinType} skin with ${issue}. The products should be of ${priceRange} price range, from ${market}. ${
+            content: `Suggest skincare routine products for ${age} ${skinType} skin with ${issue}. The products should be of ${priceRange} price range, from ${market}. Only state the products, do not include their description. ${
               brand ? `Use products from ${brand}.` : ""
             }`,
           },
